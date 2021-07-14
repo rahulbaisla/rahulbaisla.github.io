@@ -1,0 +1,80 @@
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFEB3B;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 426px)
+.about-page-content {
+    width: calc(100% - 5rem);
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+body {
+	background: #FAFAFA;
+	color: #0277BD;
+}
+
+/* Custom Styles */
+
+/* Landing Page Styles */
+
+.landing-page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	text-align: center;
+}
+
+.landing-page  main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	text-align: center;
+}
+
+.intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+.landing-page main .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
