@@ -7,7 +7,7 @@ class  LandingPage extends React.Component {
     <div className="landing-page">
         <main>
           <div id="intro" className="intro">Hello I'm Rahul Baisla</div>
-          <div id="tagLine" className="tagline">Cloud Engineer | Developer</div>
+          <div id="tagLine" className="tagline">Cloud Engineer | Full Stack Developer</div>
           <div id="social-icons" className="icons-social">
             <a target="_blank" href="https://github.com/rahulbaisla"><i className="fab fa-github" title="GitHub"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/rahulbaisla"><i className="fab fa-linkedin" title="LinkedIn"></i></a>
